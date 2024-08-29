@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,  th, td{
+            border: 4px double green;
+            /*background-image: url(pic2.png);*/
+            color: rgba(0,127,255,1);
+            background-size: cover;
+            
+            padding: 5px;
+            border-radius: 10%;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: xx-large;
+            text-align: center;
+            height: 70px;
+            width: 60px;
+            border-collapse: collapse;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        tr th{
+            color: red;
+        }
+
+        .abc, #dc{
+            color: green;
+        }
+
+        span{
+            color: white;
+        }
+        p{
+            color:  red;
+        }
+
+        tr:hover{
+            background-color: red;
+        }
+
+        t>tr{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table border = '2'> 
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th colspan = '2'>Marks</th>
+                    <th>Total Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td class = 'abc'  rowspan = '2'>Young</td>
+                    <td>Sub1</td>
+                    <td>32</td>
+                    <td rowspan = '2'>323</td>
+                </tr>
+
+                <tr>
+                    
+                    <td><p>fef</p>sub2</td>
+                    <td>224</td>
+                    
+                </tr>
+                <tr>
+                    <td id = 'dc' rowspan="2">akshay</td>
+                    <td>sub1</td>
+                    <td>233</td>
+                    <td rowspan="2">234</td>
+                </tr>
+                <tr>
+                    <td>sub 2</td>
+                    <td>2323<span>33</span>32</td>
+                    
+                </tr>
+            </tbody>
+
+    </table>
+
+</body>
+</html>

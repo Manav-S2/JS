@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            background-color: crimson;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 202px 200px 200px 200px ; 
+            /* grid-template: 20px/ auto auto ; */
+            /* grid-template: 120px 130px; */ */
+            
+        }
+
+
+        .div-items{
+            background-color: pink;
+            border: 1px solid crimson;
+            font-size: 60px;
+            text-align: center;
+        }
+
+        #g1{
+          /* grid-row-start: 2;
+          /* grid-row-end: span 4; */
+        /* grid-row: 2/4;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        grid-column-start: 2;
+        grid-column-end: span 4; */ 
+        grid-area: 2/3/span 3/4/span;
+        }
+    </style>
+</head>
+  <div class = 'grid-container'>
+    <div class = 'div-items' id = 'g1'>1</div>
+    <div class = 'div-items'>2</div>
+    <div class = 'div-items'>3</div>
+    <div class = 'div-items'>4</div>
+    <div class = 'div-items'>5</div>
+    <div class = 'div-items'>6</div>
+    <div class = 'div-items'>7</div>
+    <div class = 'div-items'>8</div>
+    <div class = 'div-items'>9</div>
+    <div class = 'div-items'>10</div>
+    <div class = 'div-items'>11</div>
+    <div class = 'div-items'>12</div>
+    <!-- <div class = 'div-items'>13</div> -->
+  </div>
+<body>
+    
+</body>
+</html>

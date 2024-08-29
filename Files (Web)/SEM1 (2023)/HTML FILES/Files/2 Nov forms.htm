@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+        background-image: url(pic2.png);
+        background-repeat: no-repeat;
+        color:#000;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select{
+            margin-bottom: 10px;
+        }
+
+        div{
+            background-color: rgba(255,255,255,0.3);
+            width: 300x;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div>
+    <form action = 'abc.php' method = 'post'>
+        <label for = 'cities'>Select Cities</label>
+        <input type = 'type' id = 'name' placeholder = 'Firstname Lastname'><br>
+        <label for = 'password'>Enter your password</label>
+        <input type = 'password' id = 'password' name = 'password'><br>
+        <label  for = 'email' id = 'email' name = 'email'></label></br>
+        <label for = 'address'>Enter your address</label>
+        <textarea id = 'address' name = 'address' rows = '5' cols = '20' ></textarea>
+
+                <select value = 'name'  id = 'cities'>
+            <option value = 'noida'>NOIDA</option>
+            <option value = 'DELHI'>DELHI</option>
+            <option value = 'MUMBAI'>MUMBAI</option>   
+        </select></br>
+        <label for = 'gender'>GENDER</label>
+        <input type = 'radio'>Male
+        <input type = 'radio'>Female
+        <input type = 'radio'>Others
+        <input type = 'button'>Submit
+        <label for = 'upload'>Upload File</label>
+        <input type = 'submit' name = 'submit'><br>
+        <input type = 'reser' name = 'reset'><br>
+    
+    </form>
+    </div>
+</body>
+</html>
